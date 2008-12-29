@@ -13,6 +13,7 @@ Lorem ipsum dolor sit amet, **consectetur** adipisicing elit, sed do eiusmod tem
 
 > On peut tromper une fois mille personnes
 
+Du Ruby
 
     def markup(string)
       #RDiscount::new(string).to_html
@@ -28,6 +29,20 @@ Lorem ipsum dolor sit amet, **consectetur** adipisicing elit, sed do eiusmod tem
     end
 
 {:lang=ruby html_use_syntax=true}
+
+Du HTML
+
+    <html>
+      <head>
+        <title>Titre</title>
+      </head>
+      <body>
+        <h2 class="titre">Mon Titre</h2>
+        <p><%= content %></p>
+      </body>
+    </html>
+
+{:lang=html html_use_syntax=true}
 
 #### Titre en H4
 
