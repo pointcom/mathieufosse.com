@@ -1,0 +1,35 @@
+# Un nouveau blog (2008/12/30)
+
+Préface de nouveau blog.
+
+Je vous présente mon nouveau blog ! Il est vrai que lorsqu'on jette un oeil à son adresse, on peut croire que je suis devenu mégalomane mais je vous rassure ça n'est pas le cas.
+
+#### Un blog OK, mais de quoi vas-tu parler ?
+
+Je vais parler, principalement, de **développement Web**. Je préfère vous prévenir, il y a de fortes chances qu'il parle beaucoup de Ruby et ses frameworks Web.
+
+Contrairement à mon [autre blog](http://blog.kawooa.org) qui s'apparente plus à du micro-blogging, celui-ci aspire à publier des billets plus fournis sur des sujets précis. 
+
+
+#### Je suis curieux, tu utilises quoi comme système de blog ?
+
+Avant de pouvoir lancer ce blog, il me fallait passer par l'inévitable choix du système de blog à adopter. Pour le choix de ce dernier j'avais les exigences suivantes : 
+
+1. Pouvoir **éditer** le contenu de mes billets dans mon éditeur favoris (à savoir **TextMate**)  
+2. Avoir un vrai **système de version des billets**
+4. Avoir un **système de commentaires** intégré
+5. Etre rapide !
+
+
+Alors j'ai commencé ma recherche en regardant de plus près [Jekyl](http://github.com/mojombo/jekyll/tree/master) qui commence a faire parler de lui et qui est déjà utilisé sur plusieurs pages GitHub :
+
+- [Page d'Alex Girard](http://alx.github.com/)
+- [Page de Chris Williams](http://voodootikigod.github.com/)
+
+Celui-ci remplissait presque toutes mes exigences 1, 2 et 4 mais faisait l'impasse sur la 3 : **la gestion des commentaires**.
+
+Et puis un jour, je suis tombé, par hasard, sur le projet [Marley](http://github.com/zach/marley/tree/master) qui répondait à chacune de ses exigences. C'est donc lui que j'utilise pour propulser ce blog.
+
+Pour la faire courte, **Marley** utilise le **système de gestion de version** [Git](http://git.or.cz/) pour stocker les billets de ce blog. D'ailleurs le [référentiel Git est disponible sur GitHub](http://github.com/pointcom/mathieufosse.com/tree/master). Pour la gestion des commentaires, il utilise une simple base de données SQLite3. 
+
+J'espère qu'il me satisfera. De toute façon je vous tiendrais au courant.
