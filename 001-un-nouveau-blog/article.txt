@@ -30,6 +30,6 @@ Celui-ci remplissait presque toutes mes exigences 1, 2 et 4 mais faisait l'impas
 
 Et puis un jour, je suis tombé, par hasard, sur le projet [Marley](http://github.com/zach/marley/tree/master) qui répondait à chacune de ses exigences. C'est donc lui que j'utilise pour propulser ce blog.
 
-Pour la faire courte, **Marley** utilise le **système de gestion de version** [Git](http://git.or.cz/) pour stocker les billets de ce blog. D'ailleurs le [référentiel Git est disponible sur GitHub](http://github.com/pointcom/mathieufosse.com/tree/master). Pour la gestion des commentaires, il utilise une simple base de données SQLite3. 
+Pour la faire courte, **Marley** utilise le **système de gestion de version** [Git](http://git.or.cz/) pour stocker les billets de ce blog. D'ailleurs le [référentiel Git est disponible sur GitHub](http://github.com/pointcom/mathieufosse.com/tree/master). Pour la gestion des commentaires, il utilise une simple base de données SQLite3. Et bien sûr ce système de blog est écrit en Ruby à l'aide du framework [**Sinatra**](http://sinatra.rubyforge.org/).
 
 J'espère qu'il me satisfera. De toute façon je vous tiendrais au courant.
